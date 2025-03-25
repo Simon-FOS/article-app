@@ -2,6 +2,7 @@
     --white: #fff; 
     --black: #000;
     --orange: orange;
+    --gray:rgb(214, 212, 212);
     --margin-default-size: 100px;  
 }
 
@@ -14,7 +15,7 @@
     width: 100%;
   }
 
-  [class*="col"]{
+  [class*="col"], .row{
     float: left;
     padding: 10px;
     width: 100%;
@@ -63,6 +64,47 @@
   }
   /*HEADER SECTION*/
 
+  /* MAIN INTRO SECTION */
+  .intro-body{
+    position: relative;
+  }
+
+  .intro-content{
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+    top: 50%;
+    color: var(--white);
+  }
+
+  .intro-content h1{
+    margin-bottom: 10px;
+
+  }
+
+  .intro-content p{
+    margin-bottom: 10px;
+  }
+
+  .intro-content a{
+    margin-bottom: 10px;
+    border: 1px solid var(--white);
+    background-color: var(--white);
+    padding: 5px 3px;
+    color: var(--orange);
+    border-radius: 5px;
+  }
+
+  .intro-content a:hover{
+    background-color: var(--gray);
+    transition: background-color .4s ease-in-out;
+  }
+
+  .intro-img img{
+    width: 100%;
+    object-fit: contain;
+  }
+  /* MAIN INTOR SECTION */
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -93,7 +135,7 @@
         width: 41.66%;
       }
       .col-md-6{
-        width: 50%%;
+        width: 50%;
       }
       .col-md-7{
         width: 58.33%;
@@ -138,7 +180,7 @@
         width: 41.66%;
       }
       .col-lg-6{
-        width: 50%%;
+        width: 50%;
       }
       .col-lg-7{
         width: 58.33%;
