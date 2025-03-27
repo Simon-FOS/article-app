@@ -124,7 +124,7 @@
     height: 200px;
   }
 
-  .card-img img{
+  .card-img img, .des-img img{
     object-fit: cover;
     object-position: center;
     width: 100%;
