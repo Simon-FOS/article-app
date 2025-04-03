@@ -6,7 +6,7 @@ menu_bar.addEventListener('click', ()=>{
     //console.log('Manu clicked')
     
     for(let i=0; i<navbar_items.length; i++){
-    navbar_items[i].classList.toggle('d-md-none,')
+    navbar_items[i].classList.toggle('d-md-none')
   
     }
 })
