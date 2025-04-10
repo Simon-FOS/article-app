@@ -26,7 +26,7 @@ fetch("/json/article.json")
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-img">
-                            <img src=${article.Image_url} alt="">
+                            <img src=${article.image_url} alt="">
                         </div>
 
                         <div class="card-content">
