@@ -1,0 +1,55 @@
+[
+{
+    "id":1,
+    "title": "Understanding The Concept of Jason",
+    "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos animi voluptatem exercitationem consectetur fugiat quidem autem, sint reprehenderit itaque. Eveniet distinctio sed repudia",
+    "Image_url": "static/img/m3.jpg",
+    "url": "/article/1",
+    "date": "Thu Apr 10 2025"
+},
+
+{
+    "id":2,
+    "title": "This is title 2",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem repudiandae est, nihil, dicta modi porro minus maiores pariatur ipsa laudantium perferendis eum, expedita doloremque facilis ducimus odio. Dolores, perspiciatis.",
+    "Image_url": "static/img/m3.jpg",
+    "url": "/article/1",
+    "date": "Thu Apr 10 2025"
+},
+
+{
+    "id":3,
+    "title": "This is title 3",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem repudiandae est, nihil, dicta modi porro minus maiores pariatur ipsa laudantium perferendis eum, expedita doloremque facilis ducimus odio. Dolores, perspiciatis.",
+    "Image_url": "static/img/m3.jpg",
+    "url": "/article/1",
+    "date": "Thu Apr 10 2025"
+},
+
+{
+    "id":3,
+    "title": "This is title 3",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem repudiandae est quidem, nihil, dicta modi porro minus maiores pariatur ipsa laudantium perferendis eum, expedita doloremque facilis ducimus odio. Dolores, perspiciatis.",
+    "Image_url": "static/img/m3.jpg",
+    "url": "/article/1",
+    "date": "Thu Apr 10 2025"
+},
+
+{
+    "id":3,
+    "title": "This is title 3",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem repudiandae est quidem, nihil, dicta modi porro minus maiores pariatur ipsa laudantium perferendis eum, expedita doloremque facilis ducimus odio. Dolores, perspiciatis.",
+    "Image_url": "static/img/m3.jpg",
+    "url": "/article/1",
+    "date": "Thu Apr 10 2025"
+},
+
+{
+    "id":3,
+    "title": "This is title 3",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem repudiandae est quidem, nihil, dicta modi porro minus maiores pariatur ipsa laudantium perferendis eum, expedita doloremque facilis ducimus odio. Dolores, perspiciatis.",
+    "Image_url": "static/img/m3.jpg",
+    "url": "/article/1",
+    "date": "Thu Apr 10 2025"
+}
+]
