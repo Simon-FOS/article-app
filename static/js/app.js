@@ -20,7 +20,8 @@ fetch("/json/article.json")
         
         let articleEl = document.getElementById('article-list')
 
-        for(let article of data){
+        for(let i=0; i<9; i++){
+            let article = data[i];
             
             articleEl.insertAdjacentHTML('afterbegin',`
                 <div class="col-md-4">
