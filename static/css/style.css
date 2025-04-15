@@ -8,6 +8,8 @@
 
 * {
     margin: 0;
+    padding:0;
+    border:0;
     box-sizing: border-box;
   }
 
@@ -19,8 +21,6 @@
     float: left;
     padding: 10px;
     width: 100%;
-    
-
   }
   
   /*GLOBAL SECTION*/
@@ -77,11 +77,16 @@
   }
 
   .intro-content{
+    width: 100%;
     position: absolute;
     z-index: 999;
     text-align: center;
-    top: 50%;
+    top: 30%;
     color: var(--white);
+  }
+  .intro-sec{
+    width: 40%;
+    margin: auto;
   }
 
   .intro-content h1{
@@ -149,6 +154,9 @@
   background-color: var(--gray);
   transition: background-color .4s ease-in-out;
 
+}
+nav{
+  /* background-color: black; */
 }
 
 .card-title{

@@ -1,108 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Article App</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article App</title>
 
-        
+    <!--FONTAWSOME-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-        <!--FONTAWSOME-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
-        <!--STYLE SECTION-->
-        <link rel="stylesheet" href="static/css/style.css">
-    </head>
-    <body> 
+    <!--STYLE SECTION-->
+    <link rel="stylesheet" href="static/css/style.css" />
+  </head>
+  <body>
+    <!--THE HEADER SECTION-->
+    <header>
+      <nav class="row align-items-center d-md-flex">
+        <div class="col-md-2 d-flex justify-content-between align-items-center">
+          <h2>Article App</h2>
+          <button
+            id="navbar-btn"
+            class="btn navbar-btn d-none d-md-block"
+            type="button"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
 
-        <!--THE HEADER SECTION-->
-        <header>
-            <nav class="row align-items-center d-md-flex">
-                <div class="col-md-2 d-flex justify-content-between align-items-center">
-                    <h2>Article App</h2>
-                    <button id="navbar-btn" class="btn navbar-btn d-none d-md-block" type="menu"><i class="fa-solid fa-bars"></i></button>
-                </div>
+        <div
+          class="col-md-8 d-md-flex justify-content-center d-md-none navbar-items"
+        >
+          <ul class="col-md-6 d-md-flex justify-content-evenly">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Archive</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Page</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <ul
+          class="col-md-2 d-flex justify-content-between d-md-none navbar-items"
+        >
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#"></a>
+            <i class="fa-brands fa-twitter"></i>
+          </li>
+          <li>
+            <a href="#"></a>
+            <i class="fa-brands fa-instagram"></i>
+          </li>
+          <li>
+            <a href="#"></a>
+            <i class="fa-brands fa-skype"></i>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--THE HEADER SECTION END-->
 
-                
+    <!--THE MAIN SECTION-->
+    <main>
+      <section class="intro row">
+        <div class="container intro-body col">
+          <div class="intro-img">
+            <img src="static/img/mm.jpg" alt="introductory image" />
+          </div>
+          <div class="intro-content">
+            <div class="intro-sec">
+              <h1>Amaizing Places on Earth</h1>
+              <p>Tours and travels get insightful places on earth</p>
+              <a href="#">Explore More</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-               <div class="col-md-8 d-md-flex justify-content-center d-md-none navbar-items">
-                <ul class="col-md-6 d-md-flex justify-content-evenly" >
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Archive</a></li>
-                    <li><a href="#">Category</a></li>
-                    <li><a href="#">Page</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-               </div>
-                <ul class="col-md-2 d-flex justify-content-between d-md-none navbar-items">
-                    <li><a href="#">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a></li>
-                    <li><a href="#"></a>
-                    <i class="fa-brands fa-twitter"></i>
-                    </li>
-                    <li><a href="#"></a>
-                        <i class="fa-brands fa-instagram"></i>
-                    </li>
-                    <li><a href="#"></a>
-                        <i class="fa-brands fa-skype"></i>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!--THE HEADER SECTION END-->
+      <section>
+        <div class="row" id="article-list"></div>
+      </section>
 
+      <section>
+        <div class="row d-md-flex align-items-center">
+          <div class="col-md-8 des-img">
+            <img src="static/img/mmm.jpg" alt="" />
+          </div>
 
-        <!--THE MAIN SECTION-->
-        <main>
-            <section class="intro row">
-                <div class="container intro-body col">
-                    <div class="intro-img">
-                        <img src="static/img/mm.jpg" alt="introductory image">
-                    </div>
-                    <div class="intro-content">
-                        <h1>Amaizing Places on Earth</h1>
-                        <p>Tours and travels get insightful places on earth</p>
-                        <a href="#">Explore More</a>
-                    </div>
-                </div>
+          <div class="col-md-4">
+            <h2>Unitas, Veritas and Caritas</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur, sint exercitationem iure impedit corrupti vel ea?
+              Quaerat amet expedita nostrum sunt ratione. Neque, impedit.
+              Tempora suscipit voluptates beatae velit quam!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--THE MAIN SECTION END-->
 
-                
-            </section>
+    <!--THE FOOTER SECTION-->
+    <footer></footer>
+    <!--THE FOOTER SECTION END-->
 
-            <section>
-                <div class="row" id="article-list">
-                    
-    
-
-                </div>
-            </section>
-
-            <section>
-                <div class="row d-md-flex align-items-center">
-                    <div class="col-md-8 des-img">
-                        <img src="static/img/mmm.jpg" alt="">
-                    </div>
-
-                    <div class="col-md-4">
-                        <h2>
-                            Unitas, Veritas and Caritas
-                        </h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, sint exercitationem iure impedit corrupti vel ea? Quaerat amet expedita nostrum sunt ratione. Neque, impedit. Tempora suscipit voluptates beatae velit quam!
-                       </p>
-                    </div>
-                </div>
-            </section>
-
-        </main>
-        <!--THE MAIN SECTION END-->
-
-        <!--THE FOOTER SECTION-->
-        <footer></footer>
-        <!--THE FOOTER SECTION END-->
-
-        <!--JAVASCRIP SECTION-->
-        <script src="static/js/app.js"></script>
-    </body>
+    <!--JAVASCRIP SECTION-->
+    <script src="static/js/app.js"></script>
+  </body>
 </html>
