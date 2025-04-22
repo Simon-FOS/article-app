@@ -144,13 +144,13 @@
   margin-bottom: 20px !important;
 }
 
-.card-btn{
+.card-btn, .creat-article-btn{
   background-color: var(--black);
   color: var(--orange);
   padding: 6px 15px;
 }
 
-.card-btn:hover{
+.card-btn:hover, .creat-article-btn:hover{
   background-color: var(--gray);
   transition: background-color .4s ease-in-out;
 
@@ -164,6 +164,23 @@ nav{
 }
   /*ARTICLE LIST SECTION*/
 
+  .article-heading{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+  }
+
+  .creat-article-btn{
+    padding: 10ps;
+    border-radius: 5pc;
+    color: var(--orange);
+    font-size: large;
+  }
+
+  .creat-article-btn a{
+    color: inherit;
+  }
 
 
   /*ARTICLE LIST SECTION ENDS*/
