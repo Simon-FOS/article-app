@@ -1,0 +1,22 @@
+{
+  "name": "article",
+  "version": "1.0.0",
+  "description": "You have been assigned as a developer to design a simple blog app that\r has the ability to perform CRUD operations",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simon-FOS/article-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Simon-FOS/article-app/issues"
+  },
+  "homepage": "https://github.com/Simon-FOS/article-app#readme"
+}
